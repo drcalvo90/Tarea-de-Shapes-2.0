@@ -15,6 +15,11 @@ Scanner scanner = new Scanner(System.in);
 System.out.println("Please select the number of stars you wish to use in you´re pattern");
 int numofstars = scanner.nextInt();
 pattern.printdiamond(numofstars);
+pattern.printheart(numofstars);
+pattern.printcircle(numofstars);
+pattern.printsquare(numofstars);
+pattern.printrectangle(numofstars);
+
 while (pattern.getChosenShape(! = 6) {
 
     pattern. chooseShape();

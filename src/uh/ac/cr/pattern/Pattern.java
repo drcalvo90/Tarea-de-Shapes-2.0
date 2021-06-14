@@ -3,7 +3,7 @@ package uh.ac.cr.pattern;
 import java.sql.SQLOutput;
 
 public class pattern {
-    int print
+    int printdiamond
 
     public void printdiamond(int numofstars) {
 
@@ -105,18 +105,16 @@ public void printcircle() {
         }
     }
     }
-    // Java Program to Print Square Star pattern
+
+
 
     public void printsquare() {
 
-        class GFG {
+        class public pattern {
 
-            // Method 1
             // To print square with primary and secondary diagonal
-            static void print_squaredi(int k) {
+            static void printsquare(int k) {
                 int a, b;
-
-                // Nested 2 for loops for Matrix rinting
 
                 // Outer loop for rows
                 for (a = 1; a <= k; a++) {
@@ -137,8 +135,6 @@ public void printcircle() {
                             System.out.print(" ");
                     }
 
-                    // By now we are over with one row so
-                    // new line
                     System.out.println();
                 }
             }
