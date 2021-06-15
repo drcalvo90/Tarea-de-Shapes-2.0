@@ -1,9 +1,24 @@
 package uh.ac.cr.pattern;
 
 import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class pattern {
     int printdiamond
+    int printheart
+    int printsquare
+    int printrectangle
+    int printcircle
+            public int figurechosen= 0;  }
+
+public void setFigurechosen() {
+    System.out.println("Select a number for the (*) Shape Pattern you wish to do: ");
+    v System.out.println("1-Diamond" + "\n\" + "2 - Heart" + "\n\" + "3 - Square" + "\n\ + "4-rectangle" + "\n\" + "
+    int circle;
+    5 - circle " + "\n\" + " 6 - Exit " + "\n\);
+    figurechosen = scanner.nextint();
+}
+
 
     public void printdiamond(int numofstars) {
 
@@ -67,7 +82,7 @@ public void printheart() {
 
 public void printcircle() {
 
-// Java implementation to print circle pattern
+// implementation to print circle pattern
 
     public class pattern {
 
@@ -97,7 +112,6 @@ public void printcircle() {
             }
         }
 
-        // Driver code
         public static void main(String[] args)
         {
             int radius = 6;
@@ -105,8 +119,6 @@ public void printcircle() {
         }
     }
     }
-
-
 
     public void printsquare() {
 
@@ -142,17 +154,20 @@ public void printcircle() {
     }
 } public void printrectangle() {
     public class pattern {
-        private static Scanner sc;
+        private static Scanner scanner;
         public static void main(String[] args)
         {
-            int rows, columns, i, j;
-            sc = new Scanner(System.in);
+            int rows;
+            int columns;
+            int i;
+            int j;
+            scanner = new Scanner(System.in);
 
             System.out.print(" Please Enter Number of Rows : ");
-            rows = sc.nextInt();
+            rows = scanner.nextInt();
 
             System.out.print(" Please Enter Number of Columns : ");
-            columns = sc.nextInt();
+            columns = scanner.nextInt();
 
             for(i = 1; i <= rows; i++)
             {
